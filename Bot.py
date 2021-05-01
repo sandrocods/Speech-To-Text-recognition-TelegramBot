@@ -7,7 +7,7 @@ import random
 import time
 
 
-TOKEN = "1659046401:AAHBN-l_sex3X5arCwHmRIuvWpgGzbecok0"
+TOKEN = ""
 
 bot = telebot.TeleBot(TOKEN, parse_mode="HTML")
 @bot.message_handler(commands=['start', 'help'])
