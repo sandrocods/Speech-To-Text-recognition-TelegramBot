@@ -32,7 +32,7 @@ def callback_query(call):
                               text="You Select " + splitcall[0] + " Language, Please Wait Processing Your Audio 😁")
     AudioRandom = splitcall[1]
     bot.delete_message(call.message.chat.id, call.message.message_id)
-    url = "http://192.168.0.106/API/AudioText.php"
+    url = "http://sandroputraa.my.id/API/AudioText.php"
     headers = {
         "Auth": "sandrocods",
     }
